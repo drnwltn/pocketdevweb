@@ -1,0 +1,48 @@
+.Content {
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+}
+
+.FeatureWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5rem;
+}
+
+.MusicImage img {
+    text-align: center;
+    border: inset;
+    border-width: thick;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title {
+    color: white;
+    text-align: center;
+    background-color: rgb(19, 48, 95);
+    z-index: 100;
+    border-top: 4px solid rgb(101, 177, 255);
+    padding: .1rem;
+    font-size: 1.25rem;
+    letter-spacing: 9px;
+}
+
+.MusicDescription {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2.5rem;
+    padding-right: 2rem;
+    vertical-align: central;
+    text-align: right;
+    text-shadow: 11px 20px rgb(101 177 255 / 41%);
+}

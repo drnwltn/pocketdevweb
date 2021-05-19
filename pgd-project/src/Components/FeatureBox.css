@@ -1,0 +1,42 @@
+.Content {
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+}
+
+.FeatureWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5rem;
+}
+
+.FeatureImage {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.Title {
+    color: white;
+    text-align: center;
+    background-color: rgb(19, 48, 95);
+    z-index: 100;
+    border-top: 4px solid rgb(101, 177, 255);
+    padding: .1rem;
+    font-size: 1.25rem;
+    letter-spacing: 9px;
+}
+
+.Description {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    vertical-align: central;
+    text-align: left;
+}

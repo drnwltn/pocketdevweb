@@ -1,0 +1,11 @@
+#AppLayout {
+    padding-top: 0;
+}
+
+#MainContent {
+    min-height: 100vh;
+}
+
+.PageBody {
+    font-family: 'VT323', monospace;
+}

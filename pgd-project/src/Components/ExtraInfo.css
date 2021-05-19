@@ -1,0 +1,37 @@
+.QuestionIcon {
+    position: absolute;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.read-more-link{
+    color: black;
+}
+.Info {
+    width: 720px;
+    height: auto;
+    background-color: rgba(2, 16, 1, .9);
+    color: white;
+
+    font-size: 40px;
+    font-weight: bold;
+    border: 10px ridge gray;
+    border-radius: 25px;
+    padding: 20px;
+    -webkit-font-smoothing: none;
+    animation-duration: .5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 720px;
+    }
+}
